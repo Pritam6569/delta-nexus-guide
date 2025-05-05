@@ -9,7 +9,14 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-6 md:mb-0">
-            <h2 className="text-xl font-bold gradient-text mb-2">Delta Nexus Guide</h2>
+            <div className="flex items-center gap-3 mb-2">
+              <img 
+                src="/delta-logo.svg" 
+                alt="Delta Logo" 
+                className="w-6 h-6" 
+              />
+              <h2 className="text-xl font-bold gradient-text">Delta Guide</h2>
+            </div>
             <p className="text-gray-400 text-sm">
               Official resource for Delta Executor users
             </p>

@@ -38,8 +38,13 @@ const Navbar = () => {
       )}
     >
       <div className="max-w-7xl mx-auto flex justify-between items-center">
-        <div className="flex items-center">
-          <span className="text-2xl font-bold gradient-text">Delta Nexus</span>
+        <div className="flex items-center gap-3">
+          <img 
+            src="/delta-logo.svg" 
+            alt="Delta Logo" 
+            className="w-8 h-8 md:w-10 md:h-10" 
+          />
+          <span className="text-2xl font-bold gradient-text">Delta</span>
         </div>
 
         {/* Desktop Navigation */}
