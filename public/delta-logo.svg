@@ -1,10 +1,25 @@
 
 <svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <path d="M60 10C32.386 10 10 32.386 10 60C10 87.614 32.386 110 60 110C87.614 110 110 87.614 110 60C110 32.386 87.614 10 60 10Z" fill="black" stroke="#FFFFFF" stroke-width="2"/>
-  <path d="M60 20C37.909 20 20 37.909 20 60C20 82.091 37.909 100 60 100C82.091 100 100 82.091 100 60C100 37.909 82.091 20 60 20Z" fill="#111111"/>
-  <path d="M49 38C49 38 54 44 60 44C66 44 71 38 71 38L76 42C76 42 69 52 60 52C51 52 44 42 44 42L49 38Z" fill="#FFFFFF"/>
-  <path d="M40 50C40 50 37 60 37 70C37 80 43 90 60 90C77 90 83 80 83 70C83 60 80 50 80 50L85 53C85 53 88 60 88 70C88 80 81 95 60 95C39 95 32 80 32 70C32 60 35 53 35 53L40 50Z" fill="#FFFFFF"/>
-  <path d="M35 45L30 55L25 65C25 65 35 80 60 80C85 80 95 65 95 65L90 55L85 45C85 45 75 65 60 65C45 65 35 45 35 45Z" fill="#2C7FFF"/>
-  <path d="M44 42L40 50M76 42L80 50" stroke="#FFFFFF" stroke-width="1.5"/>
-  <path d="M32 70C32 70 40 85 60 85C80 85 88 70 88 70" stroke="#FFFFFF" stroke-width="1.5"/>
+  <path d="M60 20C37.909 20 20 37.909 20 60C20 82.091 37.909 100 60 100C82.091 100 100 82.091 100 60C100 37.909 82.091 20 60 20Z" fill="black"/>
+  <path d="M60 25C40.67 25 25 40.67 25 60C25 79.33 40.67 95 60 95C79.33 95 95 79.33 95 60C95 40.67 79.33 25 60 25Z" fill="#111111"/>
+  
+  <!-- Ninja mask shape -->
+  <path d="M40 45C40 45 45 70 60 70C75 70 80 45 80 45L85 50C85 50 82 80 60 80C38 80 35 50 35 50L40 45Z" fill="#333333"/>
+  
+  <!-- Mask details -->
+  <path d="M45 50C45 50 48 65 60 65C72 65 75 50 75 50" stroke="#FFFFFF" stroke-width="1.5"/>
+  
+  <!-- Eyes -->
+  <path d="M50 55C50 55 52 58 55 58C58 58 60 55 60 55" stroke="#FFFFFF" stroke-width="1.5"/>
+  <path d="M70 55C70 55 68 58 65 58C62 58 60 55 60 55" stroke="#FFFFFF" stroke-width="1.5"/>
+  
+  <!-- Blades -->
+  <path d="M30 40L40 50L35 55L25 45L30 40Z" fill="#CCCCCC"/>
+  <path d="M90 40L80 50L85 55L95 45L90 40Z" fill="#CCCCCC"/>
+  
+  <!-- Blade highlights -->
+  <path d="M30 40L35 45M90 40L85 45" stroke="#FFFFFF" stroke-width="1"/>
+  
+  <!-- Shield outline -->
+  <path d="M30 30C30 30 60 20 90 30C90 30 85 80 60 90C35 80 30 30 30 30Z" stroke="#FFFFFF" stroke-width="2"/>
 </svg>
